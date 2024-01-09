@@ -1,0 +1,31 @@
+---
+import type { Award } from '@/types/sections/awards-section.types';
+import Description from '@/web/components/description.astro';
+import Timestamp2 from '@/web/components/timestamp2.astro';
+import Typography from '@/web/components/typography.astro';
+
+export interface Props extends Award {}
+
+const { date, description = '', name, company } = Astro.props;
+---
+
+<div class="flex flex-col gap-6">
+  <div class="flex flex-col gap-4">
+    <div class="flex gap-6">
+      <div class="flex w-full flex-col gap-4">
+        <div class="flex gap-4">
+          <div class="flex w-full justify-between">
+            <div class="flex flex-col gap-2">
+              <Typography variant="item-title">{name}</Typography>
+              <Typography variant="item-subtitle-secondary">
+                {company}
+              </Typography>
+              <Timestamp2 date={date} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <Description content={description} class="col-span-3 col-start-1" />
+  </div>
+</div>

@@ -1,0 +1,20 @@
+---
+import Typography from './typography.astro';
+
+export interface Props {
+  date: Date;
+}
+const { date } = Astro.props;
+---
+
+<Typography variant="item-subtitle-secondary">
+  {
+    date
+      .toLocaleDateString('en-GB', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric',
+      })
+      .replace(/ /g, '-')
+  }
+</Typography>
