@@ -6,7 +6,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://saivishwak.com',
+  site: 'https://saivishwak.github.io',
   integrations: [tailwind(), image(), compress()],
   vite: {
     plugins: [visualizer()],
