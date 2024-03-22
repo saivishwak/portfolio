@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/ProfilePic.jpg'),
   fullName: 'Sai Vishwak Korimerla',
-  role: 'Software Engineer',
+  role: 'Senior Software Engineer',
   details: [
     // { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
     { label: 'Email', value: 'saivishwak40@gmail.com', url: 'mailto:saivishwak40@gmail.com' },
@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
   description:
-    `I'm a Software Engineer at ServiceNow, specializing in Performance Engineering, Building scalable applications using my skills in Full-Stack Development, JavaScript, and Java. Beyond code, I'm an avid explorer of AI, Decentralized Internet, Neuroscience, and Psychology. Driven by a passion for innovative software solutions, I actively promote the integration of advanced technology in bridging the gap between Gen AI and Human Intelligence, fostering collaborative efforts to tackle intricate software challenges. When not coding, you'll find me immersed in neuroscience texts or pursuing music. Let's connect for tech discussions or compelling conversations!`,
+    `I'm a Senior Software Engineer at ServiceNow, specializing in Performance Engineering, Building scalable applications using my skills in Full-Stack Development, JavaScript, and Java. Beyond code, I'm an avid explorer of AI, Decentralized Internet, Neuroscience, and Psychology. Driven by a passion for innovative software solutions, I actively promote the integration of advanced technology in bridging the gap between Gen AI and Human Intelligence, fostering collaborative efforts to tackle intricate software challenges. When not coding, you'll find me immersed in neuroscience texts or pursuing music. Let's connect for tech discussions or compelling conversations!`,
   tags: [{ name: 'Available for mentoring' }, { name: 'Buildiing DeepLearning Framework from scratch' }, { name: "Building AI enabled Full Stack Solutions" }],
   action: {
     label: 'Download Resume',
