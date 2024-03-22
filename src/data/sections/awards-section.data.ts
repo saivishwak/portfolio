@@ -15,6 +15,13 @@ const AwardsSectionData = {
   },
   awards: [
     {
+      name: "Q1'24 LLama Award",
+      date: new Date('2024-03'),
+      description:
+        'Awarded Llama Q1/2024 for deep diving into UXF security aspects and coming up with a design for the Password Reset - service desk experience.',
+      company: "ServiceNow",
+    },
+    {
       name: "Q2'23 ITSM Mr. Miyagi",
       date: new Date('2023-08'),
       description:
