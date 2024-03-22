@@ -26,11 +26,26 @@ const experienceSectionData = {
     visible: true,
   },
   jobs: [
+     {
+      role: 'Seinor Software Engineer (SDE-3)',
+      company: 'ServiceNow',
+      image: import('@/assets/logos/servicenow_logo.jpg'),
+      dates: [new Date('2024-03'), null],
+      description: `
+        - Instructor for new hires boot camp training.
+        - Performance Engineering for applications across ITSM.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [JavaScript(), Java()],
+      },
+      links: [website({ url: 'https://www.servicenow.com/' }), linkedin({ url: 'https://www.linkedin.com/company/servicenow/' })],
+    },
     {
       role: 'Software Engineer (SDE-2)',
       company: 'ServiceNow',
       image: import('@/assets/logos/servicenow_logo.jpg'),
-      dates: [new Date('2021-06'), null],
+      dates: [new Date('2021-06'), new Date('2024-03')],
       description: `
         - Working on products such as Problem, Incident, Change, Service Operations Workspace, Notify, and Twilio Integration with Notify as a Software Engineer in the ITSM department.
         - Instructor for new hires boot camp training.
